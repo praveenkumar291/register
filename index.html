@@ -7,6 +7,38 @@
     <title>create register</title>
   </head>
   <body>
-    <h1>hello</h1>
+    <form onsubmit="register()">
+      <table>
+        <tr>
+          <td>
+            <input type="text" id="username" placeholder="username" />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="text" id="password" placeholder="password" /></td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="text"
+              id="confirmpassword"
+              placeholder="confirm password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" id="email" placeholder="email@gmail.com" />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="text" id="mobile" placeholder="contactno" /></td>
+        </tr>
+        <tr>
+          <td><button type="submit" onclick="register()">submit</button></td>
+        </tr>
+      </table>
+    </form>
+    <script src="register.js"></script>
   </body>
 </html>
